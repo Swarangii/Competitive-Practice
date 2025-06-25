@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void nForest(int n) {
+void nTriangle(int n) {
 	for(int i =1;i<n;i++){
 		for(int j = 1 ; j<=i ; j++){
 			cout<<j<<" ";
@@ -13,6 +13,6 @@ void nForest(int n) {
 int main (){
   int n;
   cin>>n;
-  nForest(n);
+  nTriangle(n);
 	return 0;
 }
