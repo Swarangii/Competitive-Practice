@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 
+
+// Code Studio , GFG , Leetcode 
+
 bool palindrome(int n)
 {
     int dup = n;
