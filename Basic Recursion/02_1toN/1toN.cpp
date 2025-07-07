@@ -2,6 +2,10 @@
 #include <vector>
 using namespace std;
 
+// Print Number from 1 to N without Loop 
+
+// Recursion --
+
 void linearly(int i, int n){
     if (i>n) return;
     cout<<i<<" ";
