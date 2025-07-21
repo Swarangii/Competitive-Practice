@@ -3,8 +3,6 @@
 #include <unordered_map>
 using namespace std;
 
-// Highest / Lowest Frequency Elements on Code Studio
-
 void selectionSort(vector<int>& arr, int n)
 {   
     // Write your code here.
