@@ -3,7 +3,7 @@
 #include <unordered_map>
 using namespace std;
 
-void bubbleSort(vector<int>& arr, int n) 
+void bubbleSort(int arr[], int n) 
 {
     //write your code here
     for (int i = n-1; i>0; i--){
@@ -27,5 +27,6 @@ int main() {
   for(int i=0;i<n;i++){
     cout<<arr[i];
   }
+  bubbleSort(arr,n);
   return 0;
 }
