@@ -16,19 +16,16 @@ int main()
 {
     vector<int> arr = {4, 6, 2, 5, 7, 9, 1, 3};
     int n = arr.size();
-    cout << "Before Using quick Sort: " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
     cout << endl;
     int result = isSorted(arr);
-    cout << "After Using quick sort: " << "\n";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
 
-    cout << "The Second largest element is: " << result << endl;
-    cout << "\n";
+    cout << result << endl;
     return 0;
 }
